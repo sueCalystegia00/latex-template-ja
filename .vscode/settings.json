@@ -2,7 +2,6 @@
 	"files.autoSave": "afterDelay",
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
-	"editor.defaultFormatter": "James-Yu.latex-workshop",
 	"editor.wordWrap": "on",
 	"editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?。．、，（）「」『』［］｛｝《》てにをはがのともへでや ",
 	"editor.tabSize": 2,
