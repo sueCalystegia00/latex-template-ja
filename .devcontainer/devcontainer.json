@@ -1,0 +1,16 @@
+{
+	"name": "latex-template-ja",
+	"dockerComposeFile": "docker-compose.yml",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"james-yu.latex-workshop",
+				"mhutchie.git-graph"
+				//"ICS.japanese-proofreading"
+			]
+		}
+	},
+	"service": "latex-template-ja",
+	"workspaceFolder": "/workdir",
+	"shutdownAction": "stopCompose"
+}
