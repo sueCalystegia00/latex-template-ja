@@ -10,5 +10,8 @@ services:
       - ../:/workdir
       - ~/.gitconfig:/root/.gitconfig
       - ./.latexmkrc:/root/.latexmkrc
+      - node_modules_volume:/workdir/node_modules:delegated
     environment:
       SHELL: "/bin/bash"
+volumes:
+  node_modules_volume:

@@ -12,5 +12,6 @@
 	},
 	"service": "latex-template-ja",
 	"workspaceFolder": "/workdir",
+  "postCreateCommand": "npm install",
 	"shutdownAction": "stopCompose"
 }
